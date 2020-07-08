@@ -1,0 +1,85 @@
+
+
+/* Button CSS file 
+
+Button types available
+
+btn - standard button
+btn-outline - button outline
+btn-block - button occupying block
+
+colors 
+--primary
+--accent */
+
+/* STYLES FOR DEFAULT BUTTON */
+
+button {
+    padding:12px 16px;
+    font-family:var(--font-heading);
+    font-weight:bold;
+    text-transform: capitalize;
+    background-color: var(--default);
+    color:#333;
+    border-radius:4px;
+    font-size:0.8em;
+    cursor: pointer;
+    border:none;
+}
+
+button:hover {
+    filter:brightness(0.94);
+}
+ 
+/* btn class : default color : primary */
+
+.btn {
+    background-color: var(--primary);
+    color:white;
+}
+
+.btn-outline {
+    background-color: transparent;
+    border:1px solid var(--primary);
+    color:var(--primary);
+    transition:background-color 0.3s ease-in-out;
+}
+
+.btn-outline:hover {
+    background-color:var(--primary);
+    color:white;
+}
+
+.btn-outline.accent {
+    color:var(--accent);
+    background-color:transparent;
+    border-color: var(--accent);
+    transition:background-color 0.3s ease-in-out;
+}
+
+.btn-outline.accent:hover {
+    background-color:var(--accent);
+    color:white;
+}
+
+
+.btn.primary {
+    background-color:var(--primary);
+}
+
+.btn.accent {
+    background-color: var(--accent);
+}
+
+.btn.block {
+    display:block;
+    width:80%;
+    max-width:500px;
+}
+
+.btn-outline.block {
+    display:block;
+    width:80%;
+    max-width:500px;
+}
+
