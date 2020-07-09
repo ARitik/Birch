@@ -53,13 +53,23 @@ button:hover {
 
 .btn-outline.accent {
     color:var(--accent);
-    background-color:transparent;
     border-color: var(--accent);
     transition:background-color 0.3s ease-in-out;
 }
 
 .btn-outline.accent:hover {
     background-color:var(--accent);
+    color:white;
+}
+
+.btn-outline.success {
+    color:var(--success);
+    border-color: var(--success);
+    transition:background-color 0.3s ease-in-out;
+}
+
+.btn-outline.success:hover {
+    background-color:var(--success);
     color:white;
 }
 
@@ -70,6 +80,10 @@ button:hover {
 
 .btn.accent {
     background-color: var(--accent);
+}
+
+.btn.success {
+    background-color: var(--success);
 }
 
 .btn.block,.btn-outline.block {

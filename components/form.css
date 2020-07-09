@@ -43,6 +43,14 @@ input.error:focus {
     border-left:4px solid var(--accent);
 }
 
+.success {
+    border:1.4px solid var(--success);
+}
+
+input.success:focus {
+    border-left:4px solid var(--success);
+}
+
 @keyframes error-fill {
     0% {
         background-color:transparent;
