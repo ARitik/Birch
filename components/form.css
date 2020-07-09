@@ -1,3 +1,58 @@
 /*
 Form inputs CSS File
 */
+
+label {
+    display:block;
+    font-family: var(--font-heading);
+    font-size:0.8em;
+    font-weight:bold;
+    color:black;
+    margin-left:10px;
+}
+
+input {
+    font-size:1em;
+    padding:12.5px;
+    padding-bottom:14px;
+    min-width:250px;
+    font-family: var(--font-text);
+    border:none;
+    border-radius: var(--radius-border);
+    background-color: transparent;
+    border:none;
+    border:1.4px solid var(--primary);
+    outline:none;
+}
+
+input:focus {
+    border-left:4px solid var(--primary);
+}
+
+input.block {
+    display:block;
+    width:80%;
+}
+
+.error {
+    border:1.4px solid var(--accent);
+    animation: error-fill 0.8s ease-in-out;
+}
+
+input.error:focus {
+    border-left:4px solid var(--accent);
+}
+
+@keyframes error-fill {
+    0% {
+        background-color:transparent;
+    }
+    50% {
+        background-color: var(--accent);
+        color:white;
+    }
+    100% {
+        background-color: transparent;
+        
+    }
+}
