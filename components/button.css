@@ -71,15 +71,18 @@ button:hover {
     background-color: var(--accent);
 }
 
-.btn.block {
+.btn.block,.btn-outline.block {
     display:block;
     width:80%;
     max-width:500px;
 }
 
-.btn-outline.block {
-    display:block;
-    width:80%;
-    max-width:500px;
+
+.btn > .fas , .btn-outline > .fas {
+    padding-left:4px;
 }
 
+.btn > .invert,.btn-outline > .invert {
+    padding-left:0;
+    padding-right:4px;
+}
