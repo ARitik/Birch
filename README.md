@@ -6,6 +6,29 @@ Birch is a simple CSS framework that offers a simple flex-grid for easy layout w
 
 **Note : Work in Progress 🌻**
 
+# Installation
+`cd` into your Project Directory.
+
+**Clone the repo**
+
+`git clone https://github.com/ARitik/Birch.git`
+
+Add the following code to the HTML file just before the ending of `</head>`
+```HTML
+ <link rel="stylesheet" href="birch.css">
+```
+Birch has some additional styling that makes using Font Awesome Icons with Buttons and Form-inputs very easy.
+```HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="birch.css">
+</head>
+```
+
 # Grid
 Birch contains a simple flex-grid with a mobile-first approach. It breaks at large sizes and ignores medium screen sizes. The breakpoint is set at 800px for mobile.
 
@@ -58,3 +81,52 @@ Use the `.primary` `.accent` `.success` classes for different coloured headings 
 ![paragraphs](./paragraphs.png)
 
 # Buttons
+
+Birch provides two types of buttons.
+1. Outlined buttons 
+2. Standard buttons
+
+![buttons](./buttons.png)
+
+By default , text inside buttons are set to `text-transform : capitalize;`
+Button font used is Poppins with `font-weight:bold;`
+
+```HTML
+<button class="btn">.btn</button>
+<button class="btn success">.btn .success</button>
+<button class="btn-outline accent">.btn-outline .accent</button>
+<button class="btn-outline block">.btn-outline .block</button>
+<button class="btn accent block">.btn .accent .block</button>
+```
+#### Button Types
+Buttons without classes have standard stying applied to them. 
+
+Use the `.btn` class to have color-filled standard buttons.
+
+Use the `.btn-outline` class to have outlined colour buttons.
+
+#### Button Colours
+`.btn` and `.btn-outline` come with the primary colour as a standard.
+To change the colour of the buttons , use `.accent` or `.success`
+
+```HTML 
+<button class="btn success">Submit</button>
+```
+#### Block level Buttons
+Use the `.block` class for a block level button.
+
+```HTML
+<button class="btn block">Login</button>
+```
+
+#### Font-awesome Icons with Buttons
+Font-awesome icons support without any additional CSS!
+
+Just add the desired font-awesome icon with an `<i>` tag or a `<span>` tag inside the Button.
+
+![fa-buttons](./fa-buttons.png)
+
+```HTML
+<button class="btn success">Search<i class="fas fa-search"></i></button>
+<button class="btn-outline accent">Delete<i class="fas fa-trash-alt"></i></button>
+```
