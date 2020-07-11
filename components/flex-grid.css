@@ -1,0 +1,36 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container.flex {
+    max-width: none;
+}
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+  .col {
+    flex-basis: 100%;
+  }
+  
+  @media screen and (min-width: 800px) {
+    .col {
+        flex:1;
+    }
+    .small {
+        max-width: 25%;
+        flex:2.5;
+    }
+    .half {
+        max-width: 50%;
+        flex:5;
+    }
+    .large {
+        max-width: 75%;
+        flex:7.5;
+    }
+    
+  }
