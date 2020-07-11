@@ -1,5 +1,5 @@
 # Birch
- <link rel="stylesheet" href="birch.css">
+
 ##### An opinionated CSS framework for simple fast development ⚡️
 
 Birch is a simple CSS framework that offers a simple flex-grid for easy layout with easy classes like small , large and half. It also provides simple fluid abstractions for the most common HTML elements. 
