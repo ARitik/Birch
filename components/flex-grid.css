@@ -10,11 +10,10 @@
 .row {
     display: flex;
     flex-flow: row wrap;
-  }
+}
   
   .col {
     flex-basis: 100%;
- 
   }
   
   @media screen and (min-width: 800px) {
