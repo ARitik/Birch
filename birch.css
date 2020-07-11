@@ -24,7 +24,7 @@ h4 { font-size: 1.4em; }
 h5 { font-size: 1.1em; }
 h6 { font-size: 0.94em;}
 
-p { font-family: var(--font-text); color:#555; }
+p { font-family: var(--font-text); color:#555;line-height:1.5rem ; max-width:450px; }
 
 h1.primary,h2.primary,h3.primary,h4.primary,h5.primary,h6.primary,p.primary {
     color:var(--primary);

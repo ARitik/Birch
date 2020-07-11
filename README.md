@@ -46,3 +46,15 @@ However to leverage the Grid use the following three classes.
 `.small` class takes up a quarter of the total row. (25%)
 `.large` class takes up three-quarters (3/4) of the total row. (75%)
 `.half` class takes up half of the total row. (50%)
+
+# Typography
+**Headings : Poppins**
+**Paragraphs : Roboto**
+
+![headings](./headings.png)
+
+Use the `.primary` `.accent` `.success` classes for different coloured headings and paragraphs.
+
+![paragraphs](./paragraphs.png)
+
+# Buttons
