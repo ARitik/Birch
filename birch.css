@@ -16,5 +16,24 @@ Light 300
 Regular 400
 */
 
+h1,h2,h3,h4,h5,h6 { font-family: var(--font-heading); }
+h1 { font-size: 2.6em; }
+h2 { font-size: 2.2em; }
+h3 { font-size: 1.8em; }
+h4 { font-size: 1.4em; }
+h5 { font-size: 1.1em; }
+h6 { font-size: 0.94em;}
 
+p { font-family: var(--font-text); color:#555; }
 
+h1.primary,h2.primary,h3.primary,h4.primary,h5.primary,h6.primary,p.primary {
+    color:var(--primary);
+}
+
+h1.accent,h2.accent,h3.accent,h4.accent,h5.accent,h6.accent,p.accent {
+    color:var(--accent);
+}
+
+h1.success,h2.success,h3.success,h4.success,h5.success,h6.success,p.success {
+    color:var(--success);
+}
