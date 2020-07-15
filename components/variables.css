@@ -5,15 +5,13 @@
 } */
 
 :root {
-    --default:#e4e4e4;
-    --primary:#7799EE;
-    --accent:#D55A5A;
-    --success:#49a871;
-    --font-text: 'Roboto',sans-serif;
-    --font-heading:'Poppins',sans-serif;
-    --radius-border:4px;
-    }
-    
-    
-    
-    
+  --default: #e4e4e4;
+  --primary: #7799ee;
+  --accent: #d55a5a;
+  --success: #49a871;
+  --font-text: "Roboto", sans-serif;
+  --font-heading: "Poppins", sans-serif;
+  --radius-border: 4px;
+  --padding-default: 0.5rem;
+  --margin-default: 0.5rem;
+}
