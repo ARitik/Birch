@@ -14,7 +14,7 @@ label {
 
 input {
     font-size:1em;
-    padding:10px;
+    padding:12px;
     padding-bottom:14px;
     min-width:250px;
     font-family: var(--font-text);
@@ -27,14 +27,34 @@ input {
     outline:none;
 }
 
+.fas ~ input {
+    padding-left:26px;
+}
+
 input:focus {
     border-color: var(--primary);
     border-left:4px solid var(--primary);
 }
 
+.form-wrapper {
+    position: relative;
+}
+
+
+.form-wrapper > .fas {
+    position: absolute;
+    top:34px;
+    left:12px;
+    color:#444;
+}
+
 input.block {
     display:block;
     width:80%;
+}
+
+.fas ~ input.block {
+    padding-left:32px;
 }
 
 .error {
@@ -43,6 +63,7 @@ input.block {
 }
 
 input.error:focus {
+    border-color: var(--accent);
     border-left:4px solid var(--accent);
 }
 

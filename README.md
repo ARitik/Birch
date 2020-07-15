@@ -2,7 +2,7 @@
 
 #### An opinionated CSS framework for simple fast development ⚡️
 
-Birch is a simple CSS framework that offers a simple flex-grid for easy layout with easy classes like small , large and half. It also provides simple fluid abstractions for the most common HTML elements. 
+Birch is a  CSS framework that offers a simple flex-grid for easy layout with classes like small , large and half. It also provides simple fluid abstractions for the most common HTML elements. 
 
 **Note : Work in Progress 🌻**
 
@@ -129,4 +129,64 @@ Just add the desired font-awesome icon with an `<i>` tag or a `<span>` tag insid
 ```HTML
 <button class="btn success">Search<i class="fas fa-search"></i></button>
 <button class="btn-outline accent">Delete<i class="fas fa-trash-alt"></i></button>
+```
+# Form Inputs
+Birch provides standard styling with input tags and labels.
+
+
+![form-inputs](./form-inputs.png)
+
+```HTML
+    <label for="user">Username</label>
+    <input type="text" name="user">
+
+    <label for="email">Email</label>
+    <input class="success" type="email" name="email">
+
+    <label for="password">Password</label>
+    <input class="error" type="password" name="password">
+```
+The `.error` class applies a blink effect animation when applied.
+
+#### Form-validation
+Use the  `.success` and `.error` classes for form validation.
+
+#### Full-width forms
+Use the `.block` for a full-width block-level form.
+
+![form-block](./form-block.png)
+
+```HTML
+
+    <label for="user">Username</label>
+    <input class="block" type="text" name="user">
+
+    <label for="email">Email</label>
+    <input class="success block" type="email" name="email">
+
+    <label for="password">Password</label>
+    <input class="error block" type="password" name="password">
+```
+
+#### Font-awesome icons with Form inputs
+Wrap the form-input with labels you want to add Font-awesome icons to with a `.form-wrapper` class. 
+
+Add the desired Font-awesome icon with an `<i>` or a `<span>` tag.
+
+![form-fa](./form-fa.png)
+
+```HTML
+
+    <div class="form-wrapper">
+      <label for="search">Search</label>
+      <i class="fas fa-search"></i>
+      <input type="text" name="search">
+    </div>
+    <div class="form-wrapper">
+      <label for="upload">Upload</label>
+      <i class="fas fa-file-upload"></i>
+      <input class="success block" type="email" name="upload">
+    </div>
+
+
 ```
