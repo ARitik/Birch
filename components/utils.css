@@ -1,0 +1,170 @@
+/*
+margin and padding:
+Default:0.5rem
+range: 1 to 5
+usage:
+margin
+*/
+/*marign on all sides*/
+.m-1 {
+  margin: var(--margin-default);
+}
+.m-2 {
+  margin: calc(2 * var(--margin-default));
+}
+.m-3 {
+  margin: calc(3 * var(--margin-default));
+}
+.m-4 {
+  margin: calc(4 * var(--margin-default));
+}
+.m-5 {
+  margin: calc(5 * var(--margin-default));
+}
+/*top margin*/
+.mt-1 {
+  margin-top: var(--margin-default);
+}
+.mt-2 {
+  margin-top: calc(2 * var(--margin-default));
+}
+.mt-3 {
+  margin-top: calc(3 * var(--margin-default));
+}
+.mt-4 {
+  margin-top: calc(4 * var(--margin-default));
+}
+.mt-5 {
+  margin-top: calc(5 * var(--margin-default));
+}
+/*Bottom margin*/
+.mb-1 {
+  margin-bottom: var(--margin-default);
+}
+.mb-2 {
+  margin-bottom: calc(2 * var(--margin-default));
+}
+.mb-3 {
+  margin-bottom: calc(3 * var(--margin-default));
+}
+.mb-4 {
+  margin-bottom: calc(4 * var(--margin-default));
+}
+.mb-5 {
+  margin-bottom: calc(5 * var(--margin-default));
+}
+
+/*left margin*/
+.ml-1 {
+  margin-left: var(--margin-default);
+}
+.ml-2 {
+  margin-left: calc(2 * var(--margin-default));
+}
+.ml-3 {
+  margin-left: calc(3 * var(--margin-default));
+}
+.ml-4 {
+  margin-left: calc(4 * var(--margin-default));
+}
+.ml-5 {
+  margin-left: calc(5 * var(--margin-default));
+}
+/*Right margin*/
+
+.mr-1 {
+  margin-right: var(--margin-default);
+}
+.mr-2 {
+  margin-right: calc(2 * var(--margin-default));
+}
+.mr-3 {
+  margin-right: calc(3 * var(--margin-default));
+}
+.mr-4 {
+  margin-right: calc(4 * var(--margin-default));
+}
+.mr-5 {
+  margin-right: calc(5 * var(--margin-default));
+}
+
+/*padding on all directions*/
+.p-1 {
+  padding: var(--padding-default);
+}
+.p-2 {
+  padding: calc(2 * var(--padding-default));
+}
+.p-3 {
+  padding: calc(3 * var(--padding-default));
+}
+.p-4 {
+  padding: calc(4 * var(--padding-default));
+}
+.p-5 {
+  padding: calc(5 * var(--padding-default));
+}
+/*padding on top*/
+.pt-1 {
+  padding-top: var(--padding-default);
+}
+.pt-2 {
+  padding-top: calc(2 * var(--padding-default));
+}
+.pt-3 {
+  padding-top: calc(3 * var(--padding-default));
+}
+.pt-4 {
+  padding-top: calc(4 * var(--padding-default));
+}
+.pt-5 {
+  padding-top: calc(5 * var(--padding-default));
+}
+/*padding on bottom*/
+.pb-1 {
+  padding-bottom: var(--padding-default);
+}
+.pb-2 {
+  padding-bottom: calc(2 * var(--padding-default));
+}
+.pb-3 {
+  padding-bottom: calc(3 * var(--padding-default));
+}
+.pb-4 {
+  padding-bottom: calc(4 * var(--padding-default));
+}
+.pb-5 {
+  padding-bottom: calc(5 * var(--padding-default));
+}
+/*padding on left*/
+.pl-1 {
+  padding-left: var(--padding-default);
+}
+.pl-2 {
+  padding-left: calc(2 * var(--padding-default));
+}
+.pl-3 {
+  padding-left: calc(3 * var(--padding-default));
+}
+.pl-4 {
+  padding-left: calc(4 * var(--padding-default));
+}
+.pl-5 {
+  padding-left: calc(5 * var(--padding-default));
+}
+/*padding on right*/
+.pr-1 {
+  padding-right: var(--padding-default);
+}
+.pr-2 {
+  padding-right: calc(2 * var(--padding-default));
+}
+.pr-3 {
+  padding-right: calc(3 * var(--padding-default));
+}
+.pr-4 {
+  padding-right: calc(4 * var(--padding-default));
+}
+.pr-5 {
+  padding-right: calc(5 * var(--padding-default));
+}
